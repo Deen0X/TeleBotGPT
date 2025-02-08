@@ -19,7 +19,7 @@
             "192.168.1.12",
             11434,
             "🖥 MYCOMPUTER",
-			"anothermodel:version"
+	    "anothermodel:version"
         ],
     ],
     "authorized_users": [
