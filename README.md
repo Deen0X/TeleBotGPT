@@ -12,6 +12,19 @@ Features:
 Update 2025-04-29
 - Support for API calling. You must configure you Api-Keys in config.json for use it.
 - Support for upload files to context. You can setup a file to keep as part of the context and will send to bot on each call.
+- Better detection of online services. Now the bot may take 2.5 seconds (timeout) to determine if server is online.
+- Updated Server Lists command (/list). Included online status for each server.
+- Updated /help command.
+
+![image](https://github.com/user-attachments/assets/01de5f9a-372c-4556-b153-618f32346920)
+
+Api list definde in config.json
+
+![image](https://github.com/user-attachments/assets/20bdbfa2-7da1-4205-876d-8047652c57d3)
+
+Updated Server Lists with Online Service Status
+
+
 
 Availables commands:
 
