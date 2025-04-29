@@ -9,6 +9,10 @@ Features:
 - Telegram format message support for rich text reply.
 - Formatted output for improve output messages.
 
+Update 2025-04-29
+- Support for API calling. You must configure you Api-Keys in config.json for use it.
+- Support for upload files to context. You can setup a file to keep as part of the context and will send to bot on each call.
+
 Availables commands:
 
 /help - Mostrar ayuda
