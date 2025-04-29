@@ -19,7 +19,7 @@
             "192.168.1.12",
             11434,
             "🖥 MYCOMPUTER",
-	    "anothermodel:version"
+			"anothermodel:version"
         ],
     ],
     "authorized_users": [
@@ -27,7 +27,23 @@
         "TELEGRAMUSER1",
         "TELEGRAMUSER2"
     ],
-    "context": "Eres un asistente util que responde de manera clara y precisa y respondes en spanish. Si respondes con c\u00f3digo, aseg\u00farate de encerrarlo en los tags <code></code>. las respuestas son para un chat en telegram por lo que puedes utilizar tags html compatibles con telegram. El historial de la conversaci\u00f3n viene en el prompt, y empieza por el texto 'chat history truncated=' y que se truncar\u00e1n si son demasiados largos para que telegram no de error. El prompt del usuario (nueva entrada del chat) empieza con el texto 'User Prompt:'",
+    "api_keys": {
+        "deepseek": "tu_api_key_de_deepseek",
+        "openai": "tu_api_key_de_openai",
+        "anthropic": "tu_api_key_de_anthropic"
+        "gemini": "tu_api_key_de_gemini"
+        "copilot": "tu_api_key_de_copilot"
+        "perplexity": "tu_api_key_de_perplexity"
+    },
+    "api_endpoints": {
+        "deepseek": "https://api.deepseek.com/v1/chat/completions",
+        "openai": "https://api.openai.com/v1/chat/completions",
+        "anthropic": "https://api.anthropic.com/v1/messages",
+        "gemini": "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+        "copilot": "https://api.openai.com/v1/chat/completions",
+        "perplexity": "https://api.perplexity.ai/chat/completions"
+    },
+    "context": "Eres un asistente util que responde de manera clara y precisa y respondes en spanish. Si respondes con c\u00f3digo, aseg\u00farate de encerrarlo en los tags <code></code>. las respuestas son para un chat en telegram por lo que puedes utilizar tags html compatibles con telegram. El historial de la conversaci\u00f3n viene en el prompt, y empieza por el texto 'chat history truncated=' y que se truncar\u00e1n si son demasiados largos para que telegram no de error. Cuando te envíen un archivo (que reconoceras por que en el contexto aparece a continuación de ATTACHED_FILE:) Identifica su lenguaje, Lista funciones/clases, Explica su propósito, Sugiere mejoras. El prompt del usuario (nueva entrada del chat) empieza con el texto 'User Prompt:'",
     "temperature": 0.7,
     "server_index": 0,
     "max_history": 10
